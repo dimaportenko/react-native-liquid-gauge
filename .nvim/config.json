@@ -1,0 +1,5 @@
+{
+  "commands": {
+    "run:example:ios": "yarn example ios"
+   }
+}
