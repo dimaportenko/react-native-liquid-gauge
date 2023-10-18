@@ -1,5 +1,6 @@
 {
   "commands": {
-    "run:example:ios": "yarn example ios"
+    "run:example:ios": "yarn example ios",
+    "run:example:ios:clear": "yarn example ios --clear"
    }
 }

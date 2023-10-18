@@ -74,8 +74,11 @@
     "@types/react": "17.0.21"
   },
   "peerDependencies": {
+    "@shopify/react-native-skia": ">=0.1.196",
+    "d3": ">=7.8.5",
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-reanimated": ">=3.3.0"
   },
   "workspaces": [
     "example"
