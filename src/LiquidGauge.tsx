@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   Canvas,
   Circle,
@@ -161,12 +162,14 @@ export const LiquidGauge = ({
     translateYPercent.value = withTiming(fillPercent, {
       duration: mergedConfig.waveRiseTime,
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [fillPercent]);
 
   useEffect(() => {
     textValue.value = withTiming(textFinalValue, {
       duration: mergedConfig.valueCountUp ? mergedConfig.waveRiseTime : 0,
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [textFinalValue]);
 
   useEffect(() => {
@@ -179,6 +182,7 @@ export const LiquidGauge = ({
         -1
       );
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mergedConfig.waveAnimate]);
 
   const text = useDerivedValue(() => {
