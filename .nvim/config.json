@@ -1,6 +1,7 @@
 {
   "commands": {
     "run:example:ios": "yarn example ios",
-    "run:example:ios:clear": "yarn example ios --clear"
+    "run:example:ios:clear": "yarn example ios --clear",
+    "npm:publish": "npm publish --access public"
    }
 }
