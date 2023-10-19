@@ -65,7 +65,7 @@ function liquidFillGaugeDefaultSettings(): GaugeConfig {
     textSuffix: '%', // If true, a % symbol is displayed after the value.
     textColor: '#045681', // The color of the value text when the wave does not overlap it.
     waveTextColor: '#A4DBf8', // The color of the value text when the wave overlaps it.
-    toFixed: 0,
+    toFixed: 0, // round value to this many decimal places
   };
 }
 

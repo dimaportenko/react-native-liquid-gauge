@@ -41,6 +41,48 @@ Take a look example directory
   />
 ```
 
+## Props
+
+The `LiquidGauge` component accepts the following props:
+
+### `config` (optional)
+A configuration object that can override the default settings of the gauge. It is a partial type of `GaugeConfig` and can include any of the following properties:
+
+```typescript
+{
+  minValue: number;           // Default: 0 - The gauge minimum value.
+  maxValue: number;           // Default: 100 - The gauge maximum value.
+  circleThickness: number;    // Default: 0.05 - The outer circle thickness as a percentage of its radius.
+  circleFillGap: number;      // Default: 0.05 - The size of the gap between the outer circle and wave circle as a percentage of the outer circles radius.
+  circleColor: string;        // Default: '#178BCA' - The color of the outer circle.
+  waveHeight: number;         // Default: 0.05 - The wave height as a percentage of the radius of the wave circle.
+  waveCount: number;          // Default: 1 - The number of full waves per width of the wave circle.
+  waveRiseTime: number;       // Default: 1000 - The amount of time in milliseconds for the wave to rise from 0 to its final height.
+  waveAnimateTime: number;    // Default: 18000 - The amount of time in milliseconds for a full wave to enter the wave circle.
+  waveRise: boolean;          // Default: true - Control if the wave should rise from 0 to its full height, or start at its full height.
+  waveHeightScaling: boolean; // Default: true - Controls wave size scaling at low and high fill percentages.
+  waveAnimate: boolean;       // Default: true - Controls if the wave scrolls or is static.
+  waveColor: string;          // Default: '#178BCA' - The color of the fill wave.
+  waveOffset: number;         // Default: 0 - The amount to initially offset the wave. 0 = no offset. 1 = offset of one full wave.
+  textVertPosition: number;   // Default: 0.5 - The height at which to display the percentage text within the wave circle. 0 = bottom, 1 = top.
+  textSize: number;           // Default: 1 - The relative height of the text to display in the wave circle. 1 = 50%
+  valueCountUp: boolean;      // Default: true - If true, the displayed value counts up from 0 to its final value upon loading. If false, the final value is displayed.
+  textSuffix: string;         // Default: '%' - The text suffix to display after the value.
+  textColor: string;          // Default: '#045681' - The color of the value text when the wave does not overlap it.
+  waveTextColor: string;      // Default: '#A4DBf8' - The color of the value text when the wave overlaps it.
+  toFixed: number;            // Default: 0 - Round value to this many decimal places.
+}
+```
+
+### `width` (optional)
+The width of the gauge component. Default is 150.
+
+### `height` (optional)
+The height of the gauge component. Default is 150.
+
+### `value` (optional)
+The current value of the gauge. Default is 50.
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
@@ -58,4 +100,4 @@ Made with [create-react-native-library](https://github.com/callstack/react-nativ
 - [ ] publish to npm
 - [ ] test install as npm package
 - [ ] add github action to publish to npm
-- [ ] add readme
+- [x] add readme
