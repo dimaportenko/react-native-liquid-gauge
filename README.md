@@ -1,5 +1,25 @@
 # react-native-liquid-gauge
 
+<div align="left">
+  <a align="center" href="https://github.com/dimaportenko?tab=followers">
+    <img src="https://img.shields.io/github/followers/dimaportenko?label=Follow%20%40dimaportenko&style=social" />
+  </a>
+  <br/>
+  <a align="center" href="https://twitter.com/dimaportenko">
+    <img src="https://img.shields.io/twitter/follow/dimaportenko?label=Follow%20%40dimaportenko&style=social" />
+  </a>
+  <br/>
+  <a align="center" href="https://www.youtube.com/channel/UCReKeeIMZywvQoaZPZKzQbQ">
+    <img src="https://img.shields.io/youtube/channel/subscribers/UCReKeeIMZywvQoaZPZKzQbQ" />
+  </a>
+  <br/>
+  <a align="center" href="https://www.youtube.com/channel/UCReKeeIMZywvQoaZPZKzQbQ">
+    <img src="https://img.shields.io/youtube/channel/views/UCReKeeIMZywvQoaZPZKzQbQ" />
+  </a>
+</div>
+<br/>
+
+
 Unveiling the React Native Liquid Gauge, a charming and highly customizable UI component engineered to represent progress in a visually intuitive manner. This library is built on top of react-native-skia, ensuring smooth rendering and high performance across different platforms while making it easier to integrate within your React Native projects.
 
 ![demo](https://raw.githubusercontent.com/dimaportenko/react-native-liquid-gauge/main/docs/demo.gif)
