@@ -32,7 +32,7 @@ Unveiling the React Native Liquid Gauge, a charming and highly customizable UI c
 
 This library has peer dependencies on [react-native-skia](https://shopify.github.io/react-native-skia/docs/getting-started/installation/), [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/#installation), [d3](https://www.npmjs.com/package/d3) and for typescript [@types/d3](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/d3)
 
-### Expo 
+### Expo
 ```sh
 npx expo install react-native-liquid-gauge @shopify/react-native-skia react-native-reanimated d3
 npx expo install --save-dev @types/d3
@@ -134,5 +134,5 @@ Made with [create-react-native-library](https://github.com/callstack/react-nativ
 
 - [x] publish to npm
 - [ ] test install as npm package
-- [ ] add github action to publish to npm
+- [x] add github action to publish to npm
 - [x] add readme
