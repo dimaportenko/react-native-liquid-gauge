@@ -16,6 +16,10 @@
   <a align="center" href="https://www.youtube.com/channel/UCReKeeIMZywvQoaZPZKzQbQ">
     <img src="https://img.shields.io/youtube/channel/views/UCReKeeIMZywvQoaZPZKzQbQ" />
   </a>
+  <br/>
+  <a align="center" href="https://www.twitch.tv/dima_dev">
+    <img src="https://img.shields.io/twitch/status/dima_dev?style=social" />
+  </a>
 </div>
 <br/>
 
@@ -28,10 +32,20 @@ Unveiling the React Native Liquid Gauge, a charming and highly customizable UI c
 
 This library has peer dependencies on [react-native-skia](https://shopify.github.io/react-native-skia/docs/getting-started/installation/), [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/#installation), [d3](https://www.npmjs.com/package/d3) and for typescript [@types/d3](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/d3)
 
+### Expo 
+```sh
+npx expo install react-native-liquid-gauge @shopify/react-native-skia react-native-reanimated d3
+npx expo install --save-dev @types/d3
+```
+
+
+### React Native CLI
 ```sh
 npm install react-native-liquid-gauge @shopify/react-native-skia react-native-reanimated d3
 npm install --save-dev @types/d3
 ```
+
+
 
 Follow additional steps on the libraries documentaiton page [react-native-skia](https://shopify.github.io/react-native-skia/docs/getting-started/installation/), [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/#installation).
 
