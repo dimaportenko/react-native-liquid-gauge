@@ -40,6 +40,7 @@ Follow additional steps on the libraries documentaiton page [react-native-skia](
 Take a look example directory
 
 ```js
+  import { LiquidGauge } from 'react-native-liquid-gauge';
 
   // with default config
   <LiquidGauge value={60} />
