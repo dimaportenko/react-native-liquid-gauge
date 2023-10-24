@@ -133,6 +133,7 @@ Made with [create-react-native-library](https://github.com/callstack/react-nativ
 # TODO
 
 - [x] publish to npm
-- [ ] test install as npm package
+- [x] test install as npm package
 - [x] add github action to publish to npm
 - [x] add readme
+- [ ] add to [directory](https://reactnative.directory/)
