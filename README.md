@@ -28,6 +28,9 @@ Unveiling the React Native Liquid Gauge, a charming and highly customizable UI c
 
 ![demo](https://raw.githubusercontent.com/dimaportenko/react-native-liquid-gauge/main/docs/demo.gif)
 
+## Tutorial
+If curious how it's built or you want to build something similar yourself check my [tutorial](https://github.com/dimaportenko/react-native-liquid-gauge-tutorial).
+
 ## Installation
 
 This library has peer dependencies on [react-native-skia](https://shopify.github.io/react-native-skia/docs/getting-started/installation/), [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/#installation), [d3](https://www.npmjs.com/package/d3) and for typescript [@types/d3](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/d3)
