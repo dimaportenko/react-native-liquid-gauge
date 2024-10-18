@@ -29,7 +29,7 @@ Unveiling the React Native Liquid Gauge, a charming and highly customizable UI c
 ![demo](https://raw.githubusercontent.com/dimaportenko/react-native-liquid-gauge/main/docs/demo.gif)
 
 ## Tutorial
-If curious how it's built or you want to build something similar yourself check my [tutorial](https://github.com/dimaportenko/react-native-liquid-gauge-tutorial).
+If you are curious how it's built or you want to build something similar yourself check my [tutorial](https://github.com/dimaportenko/react-native-liquid-gauge-tutorial).
 
 ## Installation
 
